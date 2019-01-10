@@ -1,0 +1,49 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  height: 200px;
+  color: rgb(0, 0, 0);
+  padding: 6px 6px;
+  font: 12px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background: white;
+  background: rgba(255,255,255,0.9);
+  box-shadow: 0 0 15px rgba(202, 233, 66, 0.2);
+  border-radius: 5px;
+  
+}
+.legend ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 40px;
+  position: absolute;
+
+}
+.legend li {
+  
+  width: 30px;
+  height: 22px;
+}
+h4 {
+  font-size: 16px;
+  line-height: 1;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 6px;
+}
+#labels-text {
+  position: absolute;
+  left: 45px;
+  line-height: 22px;
+}
